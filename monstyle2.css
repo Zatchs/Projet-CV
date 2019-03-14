@@ -1,0 +1,63 @@
+.titre {
+	text-align: center;
+	color: #b50;
+}
+
+#onglets{
+	position: absolute;
+	border: 1px solid transparent;
+	padding: 0;
+	font: bold 11px Batang, arial, serif;
+	list-style-type: none;
+	margin-top: 0;
+	width: 430px;
+}
+
+#onglets li{
+	float: left;
+	height: 21px;
+	background-color: #F4F9FD;
+	margin: 2px 2px 0 2px;
+	border: 1px solid #9EA0A1;
+}
+
+#onglets li.active
+{
+	border-bottom: 1px solid #fff;
+	background-color: #fff;
+}
+
+#onglets a
+{
+	display: block;
+	color: #666;
+	text-decoration: none;
+	padding: 4px;
+}
+
+#onglets a:hover
+{
+	background: #fff;
+
+}
+img {
+	width: 50px;
+	height: 50px;
+	vertical-align: middle;
+	margin-right: 15px;
+
+}
+.image p {
+	width: 300px;
+	height : auto;
+	padding: 1px;
+	text-indent:2em;
+
+}
+
+body {
+	color: black;
+	background-color: white;
+	background-image: url(https://wallpaper21.com/wp-content/uploads/2016/09/website-wallpaper6-600x375.jpg);
+	background-size: 100% auto;
+}
